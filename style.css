@@ -1,0 +1,76 @@
+section,nav{
+    overflow:hidden;
+}
+
+.carousel-inner img{
+    height: 50vh !important;
+}
+
+.local{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content:center;    
+}
+
+.wrapper{
+    margin-left: 2rem;
+    width: 50%;    
+}
+
+.info:not(:last-child){
+    border-right: 2px solid black;
+    
+}
+.info{
+    padding: 0 1rem;
+}
+
+.contacto{    
+    background-color: #1b2a4e;
+    padding: 2rem;    
+}
+
+.container-form{
+    background-color: #FFF;
+    border-radius: 10px;   
+    
+}
+
+.form{
+    max-width:860px; 
+    
+}
+
+.icons a{
+    color: #1b2a4e;
+    padding: 0 0.8rem;
+}
+
+.mapa{
+    display: flex;
+}
+
+
+/* MEDIA QUEARYS*/
+
+
+ @media(max-width:868px){
+    #intro{
+         width: 90% !important;
+    }
+    .container-servicios{
+        width: 100% !important;
+    }
+    .parrafo{
+        display:none;
+    }
+    .form{
+        width: 100% !important;        
+    }    
+
+  
+}
+
+
+
+
